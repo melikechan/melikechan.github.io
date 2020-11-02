@@ -22,6 +22,33 @@ body{
     width: 160px;
 }
 
+#header-nav {
+    width: 20%;
+}
 #header-nav > a {
     margin: .5%;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+#header-nav > a:hover {
+    animation: linkshadow 1s ease;
+    margin: .5%;
+}
+
+#header-nav > a:hover {
+    color: rgb(80, 80, 80);
+}
+
+@keyframes linkshadow {
+    0% {
+        text-shadow: none;
+    }
+    50% {
+        text-shadow: 1 1 5 5 #b7b7a4;
+    }   
+
+    0% {
+        text-shadow: none;
+    }
 }
