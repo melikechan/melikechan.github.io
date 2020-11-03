@@ -42,6 +42,11 @@ body {
     color: rgb(40, 40, 40);
 }
 
+a {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
 main {
     font-size: 1.1em;
 }
@@ -58,4 +63,14 @@ section {
 
 h1,h2,h3,h4,h5 {
     font-weight: 200;
+}
+
+.fab, .fas, .devi {
+    margin: 0% .5%;
+    font-size: 2em;
+}
+
+li {
+    margin: 1%;
+    list-style: none;
 }
