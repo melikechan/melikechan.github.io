@@ -26,12 +26,8 @@ body {
     width: 20%;
 }
 
-#header-nav>a {
+#header-nav > a {
     margin: .5%;
     text-decoration: none;
     color: rgb(40, 40, 40);
-}
-
-#header-nav>a:visited {
-    color: rgb(80, 80, 80);
 }
