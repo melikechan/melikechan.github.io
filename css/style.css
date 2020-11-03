@@ -74,3 +74,8 @@ li {
     margin: 1%;
     list-style: none;
 }
+
+#main-img {
+    max-width: 20%;
+    max-height: 20%;
+}
