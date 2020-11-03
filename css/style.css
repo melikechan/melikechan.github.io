@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     overflow: auto;
 }
@@ -13,7 +13,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    box-shadow: 0px 0px 10px 5px #b7b7a4 ;
+    box-shadow: 0px 0px 10px 5px #b7b7a4;
     justify-content: space-evenly;
 }
 
@@ -25,30 +25,13 @@ body{
 #header-nav {
     width: 20%;
 }
-#header-nav > a {
+
+#header-nav>a {
     margin: .5%;
     text-decoration: none;
     color: rgb(40, 40, 40);
 }
 
-#header-nav > a:hover {
-    animation: linkshadow 1s ease;
-    margin: .5%;
-}
-
-#header-nav > a:hover {
+#header-nav>a:visited {
     color: rgb(80, 80, 80);
-}
-
-@keyframes linkshadow {
-    0% {
-        text-shadow: none;
-    }
-    50% {
-        text-shadow: 1 1 5 5 #b7b7a4;
-    }   
-
-    0% {
-        text-shadow: none;
-    }
 }
