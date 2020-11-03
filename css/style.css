@@ -1,6 +1,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     overflow: auto;
+    padding-top: 8%;
+    color: rgb(40, 40, 40);
 }
 
 .site-header {
@@ -28,4 +30,19 @@ body {
     margin: .5%;
     text-decoration: none;
     color: rgb(40, 40, 40);
+}
+
+main {
+    margin: 1%;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+section {
+    margin: .5%;
+    padding: .5%;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 200;
 }
