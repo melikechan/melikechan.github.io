@@ -11,3 +11,4 @@ After I switch on React, I'm going to learn about how to use SSG to generate thi
 *unfortunately, I realized I don't know very much, thus, I decided to use pure HTML first.*
 - **11.2.20:** Switched to pure HTML and created index pages.
 - **11.3.20:** Filled pages, created template index page, fixed navbar.
+- **12.18.20:** Started moving into Bootstrap and changed navbar to Bootstrap navbar.
