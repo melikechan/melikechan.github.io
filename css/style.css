@@ -34,11 +34,6 @@ section {
     padding: .5%;
 }
 
-.center-big {
-    text-align: center;    
-    font-size: initial + .2em;
-}
-
 h1,h2,h3,h4,h5 {
     font-weight: 200;
 }
