@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans);
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
     body {
         font-size: .9em;
     }
@@ -9,7 +9,37 @@
 @media (min-width:992px) {
     #navbarNav {
         width: 30%;
-    }    
+    }
+
+    /* Selectors */
+
+    a.nav-link:hover {
+        animation: cubic-bezier(0.075, 0.82, 0.165, 1) link-hover 1s;
+    }
+
+    /* Animations */
+
+    @keyframes link-hover {
+        0% {
+            transform: scale(1.5, 1.5);
+            text-shadow: 0px 4px 2px #5a5a5a;
+        }
+
+        50% {
+            transform: translateY(1em);
+            text-shadow: 0px 4px 2px #5a5a5a;
+        }
+
+        75% {
+            transform: translateY(-1em);
+            text-shadow: 0px 4px 2px #5a5a5a;
+        }
+
+        100% {
+            transform: translateY(0);
+            text-shadow: 0px 2px 2px 4px #5a5a5a;
+        }
+    }
 }
 
 /* General body rule */
@@ -36,7 +66,11 @@ section {
     padding: .5%;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 200;
 }
 
@@ -64,7 +98,9 @@ h1,h2,h3,h4,h5 {
 
 /* Icon alignments */
 
-.fab, .fas, .devi {
+.fab,
+.fas,
+.devi {
     margin: 0% .5%;
     font-size: 2em;
 }
