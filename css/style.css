@@ -46,6 +46,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-display: swap;
     overflow: auto;
     color: rgb(40, 40, 40);
 }
