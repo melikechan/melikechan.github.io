@@ -14,3 +14,4 @@ After I switch on React, I'm going to learn about how to use SSG to generate thi
 - **12.18.20:** Started moving into Bootstrap and changed navbar to Bootstrap navbar.
 - **1.17.21:** Added projects page and changed favicon background.
 - **1.27.21:** Fully uploaded first basic project and restructured head of the documents.
+- **2.6.21:** Started to develop this site with React.
