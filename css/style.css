@@ -47,8 +47,8 @@ h5 {
 }
 
 #chan-nav {
-    height: 80px;
-    width: 200px;
+    height: 4em;
+    width: 10em;
 }
 
 /* List */
@@ -73,9 +73,16 @@ li {
         font-size: .9em;
     }
     #chan-nav {
-        height: 80px;
-        width: 120px;
+        height: 4em;
+        width: 8em;
     }
+
+    #main-img {
+        width: 60%;
+        height: 60%;
+    }
+
+    /* Skills */
     #skill-section {
         flex-direction: column;
         align-items: center;
