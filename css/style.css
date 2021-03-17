@@ -79,11 +79,6 @@ li {
         width: 8em;
     }
 
-    #main-img {
-        width: 40%;
-        height: 40%;
-    }
-
     .container {
         flex-direction: column;
         align-items: center;
