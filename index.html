@@ -70,5 +70,3 @@
 </body>
 
 </html>
-
-</html>
