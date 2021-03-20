@@ -70,6 +70,10 @@ li {
     min-width: 30%;
 }
 
+#contact {
+    width: 30%;
+}
+
 @media (max-width: 576px) {
     body {
         font-size: .9em;
@@ -87,6 +91,9 @@ li {
     .card {
         width: 100%;
         margin: 4%;
+    }
+    #contact {
+        width: 75%;
     }
 }
 
