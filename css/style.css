@@ -3,26 +3,26 @@
 /* General body rule */
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-display: swap;
-    overflow: auto;
-    color: rgb(40, 40, 40);
+  font-family: "Open Sans", sans-serif;
+  font-display: swap;
+  overflow: auto;
+  color: rgb(40, 40, 40);
 }
 
 /* Main content rules */
 
 a {
-    text-decoration: none;
-    color: rgb(40, 40, 40);
+  text-decoration: none;
+  color: rgb(40, 40, 40);
 }
 
 main {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 section {
-    margin: .5%;
-    padding: .5%;
+  margin: 0.5%;
+  padding: 0.5%;
 }
 
 h1,
@@ -30,101 +30,99 @@ h2,
 h3,
 h4,
 h5 {
-    font-weight: 200;
+  font-weight: 200;
 }
-
 
 /* Navigation */
 
 .navbar {
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px 5px #b7b7a4;
-    padding: 0% 3%;
-    margin-bottom: 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 5px #b7b7a4;
+  padding: 0% 3%;
+  margin-bottom: 5%;
 }
 
 #chan-nav {
-    height: 4em;
-    width: 10em;
+  height: 4em;
+  width: 10em;
 }
 
 #main-img {
-    width: 40%;
-    height: 40%;
+  width: 40%;
+  height: 40%;
 }
 
 /* List */
 
 li {
-    margin: 1%;
+  margin: 1%;
 }
 
 .list-icon {
-    margin: 0% 4%;
+  margin: 0% 4%;
 }
 
 .card {
-    min-width: 30%;
+  min-width: 30%;
 }
 
 #contact {
-    width: 30%;
+  width: 30%;
 }
 
 @media (max-width: 576px) {
-    body {
-        font-size: .9em;
-    }
-    #chan-nav {
-        height: 4em;
-        width: 8em;
-    }
+  body {
+    font-size: 0.9em;
+  }
+  #chan-nav {
+    height: 4em;
+    width: 8em;
+  }
 
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .card {
-        width: 100%;
-        margin: 4%;
-    }
-    #contact {
-        width: 75%;
-    }
+  .card {
+    width: 100%;
+    margin: 4%;
+  }
+  #contact {
+    width: 75%;
+  }
 }
 
-@media (min-width:992px) {
-    #navbarNav {
-        width: 30%;
-    }
+@media (min-width: 992px) {
+  #navbarNav {
+    width: 30%;
+  }
 
-    /* Selectors */
+  /* Selectors */
 
-    a.nav-link:hover {
-        animation: cubic-bezier(0.075, 0.82, 0.165, 1) link-hover 1s;
-    }
+  a.nav-link:hover {
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1) link-hover 1s;
+  }
+}
+/* Animations */
 
-    /* Animations */
+@keyframes link-hover {
+  0% {
+    text-shadow: 0px 4px 2px #5a5a5a;
+  }
 
-    @keyframes link-hover {
-        0% {
-            text-shadow: 0px 4px 2px #5a5a5a;
-        }
+  50% {
+    text-shadow: 0px 4px 2px #b4b4b4;
+  }
 
-        50% {
-            text-shadow: 0px 4px 2px #b4b4b4;
-        }
+  75% {
+    text-shadow: 0px 4px 2px #696969;
+  }
 
-        75% {
-            text-shadow: 0px 4px 2px #696969;
-        }
-
-        100% {
-            text-shadow: 0px 2px 2px 4px #5a5a5a;
-        }
-    }
+  100% {
+    text-shadow: 0px 2px 2px 4px #5a5a5a;
+  }
 }
