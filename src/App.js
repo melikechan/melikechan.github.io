@@ -49,12 +49,12 @@ export default function App() {
             <SectionLayout id="about" header={"About Me"}>
                 <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-x-4 px-4 md:px-16 lg:px-32">
                     <p className="break-words">
-                        I am currently an <i>computer engineering</i> student at{" "}
+                        I am currently a <i>computer engineering</i> student at{" "}
                         <i>Ankara University, Turkey</i> who is interested in
-                        artificial intelligence, mathematics and quantum
+                        artificial intelligence, mathematics, and quantum
                         computing. I am also keen on competitive programming.
                         <br />I love drawing, watching anime (I mostly love
-                        action and fantasy animes) and reading fantasy books.
+                        action and fantasy animes), and reading fantasy books.
                     </p>
 
                     <MediaQuery minWidth={768}>
