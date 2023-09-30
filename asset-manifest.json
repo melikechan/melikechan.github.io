@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2310982c.css",
-    "main.js": "/static/js/main.d9f18a0a.js",
+    "main.css": "/static/css/main.50d99b2b.css",
+    "main.js": "/static/js/main.2979c33c.js",
     "static/js/787.2be97d1c.chunk.js": "/static/js/787.2be97d1c.chunk.js",
     "static/media/melikechan-logo.svg": "/static/media/melikechan-logo.d5530d009ffee30a94b83b8431ae6686.svg",
     "static/media/profile-image.webp": "/static/media/profile-image.f600ce724414783eaf3d.webp",
     "index.html": "/index.html",
-    "main.2310982c.css.map": "/static/css/main.2310982c.css.map",
-    "main.d9f18a0a.js.map": "/static/js/main.d9f18a0a.js.map",
+    "main.50d99b2b.css.map": "/static/css/main.50d99b2b.css.map",
+    "main.2979c33c.js.map": "/static/js/main.2979c33c.js.map",
     "787.2be97d1c.chunk.js.map": "/static/js/787.2be97d1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2310982c.css",
-    "static/js/main.d9f18a0a.js"
+    "static/css/main.50d99b2b.css",
+    "static/js/main.2979c33c.js"
   ]
 }
