@@ -4,7 +4,7 @@ This repository is contains the source code of my website. Even though it has st
 
 ## TODO list
 
-- [ ] Finish implementing the main layout.
+- [x] Finish implementing the main layout.
   - [ ] Finish implementing _about me_ section
   - [ ] Finish implementing _resume_ section
   - [ ] Finish implementing _showcase_ section
@@ -12,6 +12,5 @@ This repository is contains the source code of my website. Even though it has st
     - [ ] Use Github API to fetch _latest commits_
     - [ ] Implement the frontend of _showcase_
   - [ ] Finish implementing _contact_ section
-    - [ ] Redirect the form to the backend to send an e-mail
 - [ ] Draw graphics for the website (hero and some other things)
 - [ ] Add dark mode
