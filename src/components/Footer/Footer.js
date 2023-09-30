@@ -1,21 +1,14 @@
 import React from "react";
-import { Layout } from "antd";
 const year = new Date().getFullYear();
 
-const footerStyle = {
-  backgroundColor: "rgb(222, 226, 230)",
-  padding: "1%",
-  textAlign: "center",
-};
-
 const Footer = () => {
-  return (
-    <>
-      <Layout.Footer style={footerStyle}>
-        <p>melikechan - {year}</p>
-      </Layout.Footer>
-    </>
-  );
+    return (
+        <>
+            <footer className="flex justify-center items-center bg-gray-100 h-16">
+                <p>melikechan - {year}</p>
+            </footer>
+        </>
+    );
 };
 
 export default Footer;
