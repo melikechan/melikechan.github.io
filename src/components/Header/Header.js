@@ -6,7 +6,7 @@ import HeaderButton from "../Buttons/HeaderButtons";
 const Header = () => {
     return (
         <>
-            <header className="flex justify-center md:justify-between flex-row items-center px-16 py-4 bg-gray-100">
+            <header className="flex justify-center md:justify-between flex-row items-center px-16 py-4 bg-gray-100 sticky top-0">
                 <img
                     className="w-1/3 md:w-1/12"
                     src={melikechanLogo}
