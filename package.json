@@ -1,23 +1,25 @@
 {
   "name": "melikechan.github.io",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://melikechan.github.io/",
   "private": true,
   "dependencies": {
-    "@ant-design/icons": "^4.7.0",
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^2.0.17",
     "@icons-pack/react-simple-icons": "^5.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.3.0",
-    "antd": "^4.21.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-responsive": "^9.0.0-beta.10",
     "react-router": "^6.3.0",
     "react-scripts": "^5.0.1",
+    "source-map-explorer": "^2.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -46,6 +48,9 @@
   "devDependencies": {
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "gh-pages": "^4.0.0"
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
   }
 }
